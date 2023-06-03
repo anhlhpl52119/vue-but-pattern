@@ -5,10 +5,8 @@ node_modules/
 *.ttf
 .vscode
 .idea
-dist
 /public
 /docs
 .local
 /bin
 components.d.ts
-client/dist/
