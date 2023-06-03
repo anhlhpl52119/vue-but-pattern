@@ -10,6 +10,8 @@
     "vite.config.ts"
   ],
   "compilerOptions": {
+    "target": "ES6",
+    "lib": ["es2016", "dom"],
     "composite": true,
     "module": "ESNext",
     "types": ["node", "vite/client"],
