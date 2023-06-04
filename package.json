@@ -16,7 +16,8 @@
     "format": "prettier --write src/",
     "preinstall": "npx only-allow pnpm",
     "reinstall": "rimraf pnpm-lock.yaml && rimraf package.lock.json && rimraf node_modules && npm run prepack",
-    "prepack": "pnpm install"
+    "prepack": "pnpm install",
+    "lab":  "nodemon src/lab.ts"
 
   },
   "dependencies": {
