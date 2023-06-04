@@ -2,14 +2,14 @@ import type { RouteRecordRaw } from 'vue-router';
 
 export const mainLayout: RouteRecordRaw[] = [
   {
-    path: '/st',
+    path: '/pattern',
     component: () => import('@/layout/main/index.vue'),
-    redirect: '/child1',
+    redirect: { name: 'strategy' },
     children: [
       {
-        path: '/child1',
-        name: 'stchild1',
-        component: () => import('@/views/main/view1/index.vue'),
+        path: 'strategy-pattern',
+        name: 'strategy',
+        component: () => import('@/views/main/strategy-design/index.vue'),
       },
     ],
   },
