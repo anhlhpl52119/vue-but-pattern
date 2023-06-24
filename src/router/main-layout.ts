@@ -13,4 +13,8 @@ export const mainLayout: RouteRecordRaw[] = [
       },
     ],
   },
+  {
+    path: '/state',
+    component: () => import('@/views/state/index.vue'),
+  },
 ];
