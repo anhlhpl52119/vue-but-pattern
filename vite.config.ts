@@ -19,7 +19,6 @@ export default defineConfig((): UserConfig => {
         imports: ['vue', 'vue-router'],
         dts: 'types/auto-imports.d.ts', // plugins này sẽ tự động generated ra file auto-imports.d.ts trong source src.
         dirs: [], // chỗ này mình có thể thêm name folder nó sẽ tự động lấy tất cả các tên file trong folder đó và mình có thể gọi bất kì ở trong file Vue nào mà không cần import. (src/stores)
-        vueTemplate: true,
       }),
       createSvgIconsPlugin({
         // Specify the icon folder to be cached
