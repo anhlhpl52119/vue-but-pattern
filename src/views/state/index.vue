@@ -11,9 +11,4 @@ import ComponentTwo from './ComponentTwo.vue';
 
 </script>
 <style scoped lang="less">
-// * {
-//   background-color: rgb(37, 37, 37);
-//   color: white;
-//   height: 100vh;
-// }
 </style>
