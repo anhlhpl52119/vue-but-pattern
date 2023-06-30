@@ -17,4 +17,8 @@ export const mainLayout: RouteRecordRaw[] = [
     path: '/state',
     component: () => import('@/views/state/index.vue'),
   },
+  {
+    path: '/reactive',
+    component: () => import('@/views/reactive/index.vue'),
+  },
 ];
