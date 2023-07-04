@@ -23,7 +23,6 @@ import {  reactive, ref } from 'vue';
     },
     changeoutside(){
         controller.value = 20;
-        console.log(this.count);
     },
     changeVl(){
       const hello = this.count * 2
