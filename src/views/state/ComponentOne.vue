@@ -16,6 +16,5 @@ const store2 = useRouteParams();
 const goto = () => {
   router.push({ query: { keyword: `radom${random}` } });
 };
-console.log('test');
 </script>
 <style scoped></style>
