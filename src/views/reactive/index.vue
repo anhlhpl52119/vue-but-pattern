@@ -27,8 +27,6 @@ import {  reactive, ref } from 'vue';
     },
     changeVl(){
       const hello = this.count * 2
-      console.log('count:',this.count);
-      console.log('object', hello);
       return `hello this is curent count: ${hello}`
     },
     _setconver() {
