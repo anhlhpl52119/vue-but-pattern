@@ -31,11 +31,6 @@ import {  reactive, ref } from 'vue';
     },
     _setconver() {
       return this.count++;
-      // console.log('run');
-      // this.converted = {
-      //   name: `thisi Name: ${this.count}`,
-      //   age: this.count-1 
-      // };
       },
   });
 
