@@ -66,4 +66,3 @@ function removeItemByName(items, itemName) {
  ]
  
  console.log(removeItemByName(input, 'Policiales'))
- console.log(removeItemByName(input, 'Deportes'))
