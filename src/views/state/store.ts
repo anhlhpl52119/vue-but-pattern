@@ -16,13 +16,6 @@ export function useRouteParams() {
     refRouteQuery,
   };
 }
-function removeItemByName(items, itemName) {
-  return items.filter(item => item.name !== itemName)
-    .map(item => {
-      item.children = removeItemByName(item.children, itemName)
-      return item
-    })
- }
  
  const input = [
    {
