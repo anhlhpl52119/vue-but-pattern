@@ -64,5 +64,3 @@ function removeItemByName(items, itemName) {
      "children": []
    }
  ]
- 
- console.log(removeItemByName(input, 'Policiales'))
