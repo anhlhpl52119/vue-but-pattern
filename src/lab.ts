@@ -4,7 +4,6 @@
 //       console.log('hello 300s');
 //     }, 3000)
 //   );
-// });
 
 const pm = new Promise((resolve) => {
   setTimeout(() => {
