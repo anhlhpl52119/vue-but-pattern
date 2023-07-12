@@ -10,5 +10,4 @@ const pm = new Promise((resolve) => {
     resolve(console.log('done timeout'));
   }, 3000);
 });
-const a = await pm
 console.log('pm is: ', a);
