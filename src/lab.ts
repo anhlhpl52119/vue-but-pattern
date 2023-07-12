@@ -8,4 +8,4 @@ const pm = new Promise((resolve) => {
     resolve(console.log('done timeout'));
   }, 3000);
 });
-console.log('pm is: ', a);
+console.log('pm is: ', pm);
