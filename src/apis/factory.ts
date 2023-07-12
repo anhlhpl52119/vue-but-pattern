@@ -7,4 +7,5 @@ const repository = {
 export const useFactor = {
     basicUse: (name: keyof typeof repository) => repository[name]
 }
-const sd = useFactor.basicUse('something')
+const sd = useFactor.basicUse('something');
+sd.getAddress(1);
