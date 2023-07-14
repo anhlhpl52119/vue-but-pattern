@@ -1,6 +1,4 @@
 // const hello = new Promise(() => {
-//   return Promise.resolve(
-
 const pm = new Promise((resolve) => {
   setTimeout(() => {
     resolve(console.log('done timeout'));
