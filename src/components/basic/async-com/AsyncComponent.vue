@@ -9,7 +9,7 @@ const loader = async () => {
     setTimeout(() => {
       textItem.value = 'asdfasdfasdf';
       resolve({
-        sdsd: 'saadf',
+        sdsd: 'controller resolve',
       });
     }, 2000);
   });
