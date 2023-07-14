@@ -2,7 +2,7 @@
   <div class="testvue">Hello Vue 3 with: {{ textItem }}</div>
 </template>
 <script lang="ts" setup>
-const textItem = ref<string>('');
+const textItem = ref<string>('controller');
 
 const loader = async () => {
   return new Promise((resolve) => {
