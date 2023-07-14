@@ -1,6 +1,5 @@
 // const hello = new Promise(() => {
 //   return Promise.resolve(
-//     setTimeout(() => {
 
 const pm = new Promise((resolve) => {
   setTimeout(() => {
