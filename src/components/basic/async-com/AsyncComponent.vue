@@ -8,7 +8,6 @@ const loader = async () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       textItem.value = 'asdfasdfasdf';
-      console.log('ok');
       resolve({
         sdsd: 'saadf',
       });
