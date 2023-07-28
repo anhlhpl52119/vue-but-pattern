@@ -10,7 +10,6 @@
 //const {props} = toRefs(props);
 //const emits =defineEmits(['emit']);
 
-/** Data */
 
 /** Method */
 //function _name() {}
